@@ -5,7 +5,9 @@ export default function Header() {
   const navigate = useNavigate()
 
   function pathMathRoute(route) {
-    if (route === location.pathname) return true
+    if (route === location.pathname) {
+      return true
+    }
   }
 
   return (
